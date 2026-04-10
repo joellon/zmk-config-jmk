@@ -1,14 +1,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-//#include <layouts/common/60percent/ansi.dtsi>
 
 / {
-    &physical_layout0 {
-        zmk,kscan = &kscan0;
-       // zmk,physical-layout = &layout_60_ansi;
+    chosen {
+        zmk,kscan = &default_kscan;
+        zmk,matrix_transform = &default_transform;
     };
 
-    kscan0: kscan {
+    default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+        label = "default_kscan";
         wakeup-source;
 
         diode-direction = "col2row";
