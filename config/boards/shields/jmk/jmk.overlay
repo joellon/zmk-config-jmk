@@ -38,7 +38,7 @@
             , <&gpio1 1 GPIO_ACTIVE_HIGH>
             ;
     };
-
+};
 
 
 
@@ -61,7 +61,7 @@
         >;
     };
 };
-};
+
 
 //&layout_60_ansi {
 //    transform = <&default_transform>;
