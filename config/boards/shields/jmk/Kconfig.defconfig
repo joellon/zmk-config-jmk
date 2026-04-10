@@ -1,0 +1,5 @@
+if SHIELD_JMK
+
+    config ZMK_KEYBOARD_NAME
+        default "jmk"
+endif
