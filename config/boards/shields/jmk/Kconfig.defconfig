@@ -4,8 +4,6 @@ if SHIELD_JMK
         default "jmk"
     
     config BT_CTLR
-    default BT
+        default BT
 
-    config CONFIG_ZMK_BATTERY_REPORTING
-        default y
 endif
