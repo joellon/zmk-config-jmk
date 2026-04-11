@@ -41,7 +41,7 @@
             // |  CTL  |  SUPER  |  ALT  |                SPACE                 |  ALT  |  FN   |  CTL  |
             // ------------------------------------------------------------------------------------------
             bindings = <
-                &kp SV_SECTION  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12  &kp  &kp KP_MULTIPLY  &kp KP_MINUS
+                &kp SV_SECTION  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp KP_MULTIPLY  &kp KP_MINUS
                 &trans  &bt BT_CLR  &out OUT_BLE  &bt BT_PRV  &bt BT_NXT  &none  &none  &out OUT_USB  &none  &none  &kp UP  &none  &none
                 &kp CAPS  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT
                 &trans &sys_reset  &bootloader  &none  &none  &none  &none  &none &none  &none  &none  &none  &none
